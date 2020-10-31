@@ -27,6 +27,7 @@ def calcula_largo_promedio(lista):
     largo_promedio = suma_largos/len(lista)
     return largo_promedio
 
+
 largo_listas = 5
 lista = []
 for n in range(0,largo_listas):
