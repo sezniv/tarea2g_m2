@@ -15,8 +15,6 @@ print(lista)
 ######## desde aca comienza el codigo que realizo el profe en clases
 
 
-
-import random
 caracteres = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz­_'
 
 def calcula_largo_promedio(lista):
