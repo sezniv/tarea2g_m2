@@ -38,6 +38,7 @@ lista3 = [lista2[0] - p, lista2[1] - p, lista2[2] - p,
 print('La actualizacion de la lista es: ')
 print(lista3)
 
+
 input()
 
 
