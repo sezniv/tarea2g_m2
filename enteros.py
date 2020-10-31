@@ -30,6 +30,8 @@ print(lista2)
 print('y su promedio viene dado por')
 print(promedio_lista(lista2))
 
+
+
 # Se genera la acutualizacion
 p = promedio_lista(lista2)
 lista3 = []
