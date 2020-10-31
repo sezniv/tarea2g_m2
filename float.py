@@ -3,7 +3,7 @@ import random
 caracteres = '0123456789'
 
    
-
+# lista numeros flotantes aleatorios entre 10 y 50
 lista = []
 for n in range(0,5):    
     string_aleatorio = ''    
@@ -13,6 +13,7 @@ for n in range(0,5):
         flotante = "{0:.3f}".format(float(string_aleatorio) / 3) 
     lista.append(flotante)
 print("Esta es la lista original random " + str(lista))
+
 
 # aca estoy sumando cada numero que contiene cada un elemento dentro de la lista
 
@@ -25,7 +26,7 @@ resultado = cont1 / 5
 promedio = "{0:.3f}".format(resultado)
 print("el promedio de los valores dentro de la lista random es de: " + str(promedio))
 
-
+# se normaliza la lista
 maximo = max(lista)
 for elemento in lista:
     resultado1 = float(elemento) - float(promedio)
@@ -35,3 +36,5 @@ for elemento in lista:
     var_x += contenedor
 print("esta el la suma total de cada elemento de la lista modificada: ")
 print(var_x)
+
+input()

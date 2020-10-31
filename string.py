@@ -52,3 +52,4 @@ largo_promedio2 = calcula_largo_promedio(lista2)
 print("Largo promedio elemento de lista2: ", largo_promedio2)
 print("\n")
 
+input()
